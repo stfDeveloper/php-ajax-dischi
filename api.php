@@ -52,7 +52,7 @@ $dischi= [
     'title'=> 'Hard Wired' , 
     'author'=> 'Dave Weckl' , 
     'genre'=> 'Jazz' , 
-    'year'=> '1994'],
+    'year'=> '1994'], 
 
     [ '$poster' => 'https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg' , 
     'title'=> 'Bad' , 
