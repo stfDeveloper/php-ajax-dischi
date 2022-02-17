@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sputify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/img.png" alt="">
+        <h1>SPUTIFY</h1>
+    </header>
+
+    <main id="root">
+        <div class="all">
+            <div v-for="element in card" class="card">
+                <img :src="element.poster">
+                <h1>{{element.title}}</h1>
+                <p>{{element.author}}</p>
+                <p>{{element.year}}</p>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
